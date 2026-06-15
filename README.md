@@ -1,93 +1,121 @@
-# STM32-Based Smart Industrial Safety Monitoring System
+# STM32-Based Smart Industrial Safety & Monitoring System
 
-An advanced STM32 embedded systems project focused on industrial safety monitoring and multi-sensor data processing using STM32 Blue Pill, Embedded C, UART communication, and ADC peripherals.
+An advanced Embedded Systems project using **STM32F103C8T6 (Blue Pill)** focused on real-time industrial safety monitoring and automation.
 
-## Project Overview
+This project demonstrates industrial monitoring concepts using:
 
-This project simulates a smart industrial safety monitoring system capable of:
+* STM32 Microcontroller
+* Embedded C Programming
+* UART Communication
+* ADC Sensor Interfacing
+* PICSimLab Simulation
+* Safety Alert Systems
 
-* Temperature Monitoring
-* Gas Leakage Detection
-* Real-Time UART Telemetry
-* Industrial Warning System
-* Multi-Channel ADC Processing
-* Embedded Sensor Monitoring
+---
 
-The project is developed using STM32CubeIDE and simulated using PICSimLab.
+## Technologies Used
+
+### Hardware
+
+* STM32F103C8T6 Blue Pill
+* HC-SR04 Ultrasonic Sensor
+* MQ2 Gas Sensor
+* Temperature Sensor
+* LEDs
+* Buzzer
+
+### Software
+
+* STM32CubeIDE
+* Embedded C
+* PICSimLab
+* Git & GitHub
+
+---
+
+# Completed Modules
+
+## Day 1 — Temperature Monitoring System
+
+* ADC-based temperature sensing
+* UART serial monitoring
+* LED warning system
+
+## Day 2 — MQ2 Gas Sensor Monitoring
+
+* Gas leakage detection
+* Real-time UART monitoring
+* Safety alert logic
+
+## Day 3 — Distance Monitoring System
+
+* HC-SR04 obstacle detection
+* Distance monitoring
+* Warning alert system
+
+## Day 4 — Industrial Alarm System
+
+* LED alert control
+* Buzzer activation system
+* Industrial safety signaling
+
+## Day 5 — Fire & Gas Detection System
+
+* Combined gas + temperature monitoring
+* Fire risk alert system
+* LED + buzzer emergency warning
+* UART industrial dashboard
 
 ---
 
 # Features
 
-## Day 1 – Temperature Monitoring System
-
-* ADC-based temperature sensor reading
-* UART serial monitoring
-* LED warning system
-* Real-time sensor processing
-
-## Day 2 – MQ2 Gas Leakage Detection
-
-* Multi-channel ADC implementation
-* Gas sensor monitoring
-* Gas leakage warning alert
-* Industrial safety logic
-* Combined temperature + gas telemetry
-
----
-
-# Hardware / Simulation
-
-## Microcontroller
-
-* STM32F103C8T6 (Blue Pill)
-
-## Simulation Platform
-
-* PICSimLab
-
-## Communication
-
-* UART Serial Communication
-
-## Sensors
-
-* LM35 Temperature Sensor (Simulated)
-* MQ2 Gas Sensor (Simulated)
-
----
-
-# Technologies Used
-
-* Embedded C
-* STM32CubeIDE
-* STM32 HAL Drivers
-* UART Communication
-* ADC Peripheral
-* GPIO Control
-* PICSimLab Simulation
-
----
-
-# UART Output Example
-
-```text
-Temp: 34.22 C | Gas: 52.11 %
-
-WARNING: GAS LEAK DETECTED
-```
+* Real-time industrial monitoring
+* Sensor-based alert system
+* UART serial dashboard
+* Embedded safety automation
+* Modular STM32 project structure
+* PICSimLab simulation support
 
 ---
 
 # Project Structure
 
-```text
-Core/
-Drivers/
-Debug/
-README.md
-.ioc File
+```plaintext
+STM32-Based-Smart-Industrial-Safety-Monitoring-System/
+│
+├── Day_01_Temperature_Monitoring/
+├── Day_02_MQ2_Gas_Sensor_Monitoring/
+├── Day_03_HCSR04_Distance_Monitoring/
+├── Day_04_Buzzer_Alarm_System/
+├── Day_05_Fire_Gas_Detection_System/
+│
+├── Images/
+├── README.md
 ```
+
+---
+
+# UART Output Example
+
+```plaintext
+Gas: 62.50 % | Temp: 45.20 C
+Distance: 15.00 cm
+
+!!! FIRE/GAS ALERT !!!
+WARNING: OBJECT TOO CLOSE
+```
+
+---
+
+# Simulation
+
+This project is fully simulated using PICSimLab with:
+
+* Virtual Terminal
+* Sensor Sliders
+* LED Simulation
+* Buzzer Simulation
 
 ---
 
@@ -96,24 +124,20 @@ README.md
 * OLED Display Dashboard
 * FreeRTOS Integration
 * IoT Cloud Monitoring
+* ESP8266 WiFi Communication
+* MQTT Alerts
 * Data Logging System
-* Buzzer Alarm System
-* Wireless Monitoring
-* Mobile App Dashboard
 
 ---
 
 # Learning Outcomes
 
-This project helped in understanding:
-
-* STM32 Peripheral Configuration
-* Multi-Channel ADC
+* STM32 Peripheral Programming
+* GPIO & ADC Interfacing
 * UART Communication
-* Embedded Sensor Processing
-* Industrial Monitoring Systems
-* Embedded Firmware Development
-* Real-Time Monitoring Logic
+* Embedded C Development
+* Industrial Automation Concepts
+* Real-Time Monitoring Systems
 
 ---
 
@@ -121,4 +145,4 @@ This project helped in understanding:
 
 Abhiney Kumar
 
-Embedded Systems | IoT | STM32 | Embedded C | Industrial Automation
+Embedded Systems | STM32 | IoT | Industrial Automation
