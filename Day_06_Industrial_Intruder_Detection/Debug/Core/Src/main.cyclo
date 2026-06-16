@@ -1,0 +1,9 @@
+../Core/Src/main.c:22:5:main	1
+../Core/Src/main.c:46:6:Read_Distance	1
+../Core/Src/main.c:59:6:Check_Intruder	2
+../Core/Src/main.c:91:6:Send_UART_Data	1
+../Core/Src/main.c:103:6:SystemClock_Config	1
+../Core/Src/main.c:133:13:MX_ADC1_Init	1
+../Core/Src/main.c:162:13:MX_USART1_UART_Init	1
+../Core/Src/main.c:183:13:MX_GPIO_Init	1
+../Core/Src/main.c:205:6:Error_Handler	1

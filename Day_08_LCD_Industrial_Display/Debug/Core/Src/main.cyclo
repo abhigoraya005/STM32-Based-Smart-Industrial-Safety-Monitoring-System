@@ -1,0 +1,15 @@
+../Core/Src/main.c:41:5:main	1
+../Core/Src/main.c:102:10:Read_ADC	1
+../Core/Src/main.c:123:6:Check_Alerts	4
+../Core/Src/main.c:170:6:Send_UART_Data	1
+../Core/Src/main.c:191:6:LCD_Send_Command	1
+../Core/Src/main.c:200:6:LCD_Send_Data	1
+../Core/Src/main.c:209:6:LCD_Init	1
+../Core/Src/main.c:222:6:LCD_Send_String	2
+../Core/Src/main.c:230:6:LCD_Set_Cursor	2
+../Core/Src/main.c:248:13:MX_ADC1_Init	1
+../Core/Src/main.c:278:13:MX_USART1_UART_Init	1
+../Core/Src/main.c:300:13:MX_I2C1_Init	1
+../Core/Src/main.c:324:13:MX_GPIO_Init	1
+../Core/Src/main.c:354:6:SystemClock_Config	1
+../Core/Src/main.c:397:6:Error_Handler	1
