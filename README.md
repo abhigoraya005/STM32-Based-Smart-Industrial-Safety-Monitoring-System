@@ -13,9 +13,9 @@ This project demonstrates industrial monitoring concepts using:
 
 ---
 
-## Technologies Used
+# Technologies Used
 
-### Hardware
+## Hardware
 
 * STM32F103C8T6 Blue Pill
 * HC-SR04 Ultrasonic Sensor
@@ -24,7 +24,7 @@ This project demonstrates industrial monitoring concepts using:
 * LEDs
 * Buzzer
 
-### Software
+## Software
 
 * STM32CubeIDE
 * Embedded C
@@ -41,11 +41,15 @@ This project demonstrates industrial monitoring concepts using:
 * UART serial monitoring
 * LED warning system
 
+---
+
 ## Day 2 — MQ2 Gas Sensor Monitoring
 
 * Gas leakage detection
 * Real-time UART monitoring
 * Safety alert logic
+
+---
 
 ## Day 3 — Distance Monitoring System
 
@@ -53,11 +57,15 @@ This project demonstrates industrial monitoring concepts using:
 * Distance monitoring
 * Warning alert system
 
+---
+
 ## Day 4 — Industrial Alarm System
 
 * LED alert control
 * Buzzer activation system
 * Industrial safety signaling
+
+---
 
 ## Day 5 — Fire & Gas Detection System
 
@@ -65,6 +73,33 @@ This project demonstrates industrial monitoring concepts using:
 * Fire risk alert system
 * LED + buzzer emergency warning
 * UART industrial dashboard
+
+---
+
+## Day 6 — Industrial Intruder Detection System
+
+* Distance-based intruder detection
+* Buzzer alert activation
+* Industrial security monitoring
+* UART alert notifications
+
+---
+
+## Day 7 — Industrial Safety Dashboard
+
+* Combined sensor dashboard
+* Gas + temperature + distance monitoring
+* Multi-alert safety system
+* Industrial UART monitoring console
+
+---
+
+## Day 8 — UART Industrial Monitoring Dashboard
+
+* Advanced UART industrial display
+* Real-time sensor reporting
+* Modular monitoring architecture
+* Integrated industrial alert system
 
 ---
 
@@ -76,6 +111,7 @@ This project demonstrates industrial monitoring concepts using:
 * Embedded safety automation
 * Modular STM32 project structure
 * PICSimLab simulation support
+* Multi-sensor industrial monitoring
 
 ---
 
@@ -89,8 +125,11 @@ STM32-Based-Smart-Industrial-Safety-Monitoring-System/
 ├── Day_03_HCSR04_Distance_Monitoring/
 ├── Day_04_Buzzer_Alarm_System/
 ├── Day_05_Fire_Gas_Detection_System/
+├── Day_06_Industrial_Intruder_Detection/
+├── Day_07_Industrial_Safety_Dashboard/
+├── Day_08_UART_Industrial_Dashboard/
 │
-├── Images/
+├── images/
 ├── README.md
 ```
 
@@ -99,11 +138,16 @@ STM32-Based-Smart-Industrial-Safety-Monitoring-System/
 # UART Output Example
 
 ```plaintext
-Gas: 62.50 % | Temp: 45.20 C
-Distance: 15.00 cm
+===== INDUSTRIAL DASHBOARD =====
 
-!!! FIRE/GAS ALERT !!!
-WARNING: OBJECT TOO CLOSE
+Gas Level : 65 %
+Temperature : 72 C
+Distance : 18 cm
+
+STATUS:
+[!] GAS LEAK DETECTED
+[!] HIGH TEMPERATURE
+[!] INTRUDER ALERT
 ```
 
 ---
@@ -121,12 +165,13 @@ This project is fully simulated using PICSimLab with:
 
 # Future Enhancements
 
-* OLED Display Dashboard
 * FreeRTOS Integration
 * IoT Cloud Monitoring
 * ESP8266 WiFi Communication
 * MQTT Alerts
-* Data Logging System
+* SD Card Data Logging
+* Industrial IoT Dashboard
+* Mobile App Monitoring
 
 ---
 
@@ -138,11 +183,13 @@ This project is fully simulated using PICSimLab with:
 * Embedded C Development
 * Industrial Automation Concepts
 * Real-Time Monitoring Systems
+* Sensor Integration
+* Industrial Alert Architecture
 
 ---
 
 # Author
 
-Abhiney Kumar
+**Abhiney Kumar**
 
 Embedded Systems | STM32 | IoT | Industrial Automation
