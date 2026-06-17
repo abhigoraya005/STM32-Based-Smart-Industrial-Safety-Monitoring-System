@@ -1,30 +1,23 @@
 # STM32-Based Smart Industrial Safety & Monitoring System
 
-An advanced Embedded Systems project using **STM32F103C8T6 (Blue Pill)** focused on real-time industrial safety monitoring and automation.
+An advanced Embedded Systems project using **STM32F103C8T6 (Blue Pill)** focused on industrial safety, monitoring, fault logging, maintenance scheduling, and automation concepts.
 
-This project demonstrates industrial monitoring concepts using:
-
-* STM32 Microcontroller
-* Embedded C Programming
-* UART Communication
-* ADC Sensor Interfacing
-* PICSimLab Simulation
-* Safety Alert Systems
+The project is completely developed using **STM32CubeIDE**, **Embedded C**, and **PICSimLab Simulation**.
 
 ---
 
-# Technologies Used
+## Technologies Used
 
-## Hardware
+### Hardware
 
 * STM32F103C8T6 Blue Pill
-* HC-SR04 Ultrasonic Sensor
 * MQ2 Gas Sensor
 * Temperature Sensor
+* HC-SR04 Ultrasonic Sensor
 * LEDs
 * Buzzer
 
-## Software
+### Software
 
 * STM32CubeIDE
 * Embedded C
@@ -33,163 +26,182 @@ This project demonstrates industrial monitoring concepts using:
 
 ---
 
-# Completed Modules
+## Completed Modules
 
-## Day 1 — Temperature Monitoring System
+### Day 01 — Temperature Monitoring System
 
-* ADC-based temperature sensing
-* UART serial monitoring
-* LED warning system
+* ADC-based temperature monitoring
+* UART data transmission
+* Temperature alert indication
 
----
-
-## Day 2 — MQ2 Gas Sensor Monitoring
+### Day 02 — MQ2 Gas Sensor Monitoring
 
 * Gas leakage detection
-* Real-time UART monitoring
+* UART monitoring dashboard
 * Safety alert logic
 
----
-
-## Day 3 — Distance Monitoring System
+### Day 03 — Distance Monitoring System
 
 * HC-SR04 obstacle detection
-* Distance monitoring
-* Warning alert system
+* Distance measurement
+* Real-time monitoring
 
----
+### Day 04 — Industrial Alarm System
 
-## Day 4 — Industrial Alarm System
+* LED warning system
+* Buzzer activation
+* Safety alarm simulation
 
-* LED alert control
-* Buzzer activation system
-* Industrial safety signaling
+### Day 05 — Fire & Gas Detection System
 
----
+* Combined gas and temperature monitoring
+* Fire risk indication
+* Emergency alert generation
 
-## Day 5 — Fire & Gas Detection System
-
-* Combined gas + temperature monitoring
-* Fire risk alert system
-* LED + buzzer emergency warning
-* UART industrial dashboard
-
----
-
-## Day 6 — Industrial Intruder Detection System
+### Day 06 — Industrial Intruder Detection
 
 * Distance-based intruder detection
-* Buzzer alert activation
-* Industrial security monitoring
-* UART alert notifications
+* Security alert system
+* UART event notification
+
+### Day 07 — Industrial Safety Dashboard
+
+* Combined sensor monitoring
+* Multi-alert dashboard
+* Industrial status reporting
+
+### Day 08 — LCD Industrial Display
+
+* LCD integration attempt
+* Display driver testing
+* Dashboard visualization experiments
+
+### Day 09 — Event Logger System
+
+* Fault counting
+* Event logging
+* Industrial reporting dashboard
+
+### Day 10 — Industrial Shift Monitoring
+
+* Shift A / B / C monitoring
+* Fault tracking per shift
+* Automatic shift management
+* UART shift dashboard
+
+### Day 11 — Preventive Maintenance Scheduler
+
+* Machine runtime monitoring
+* Maintenance due detection
+* Maintenance alert generation
+* Preventive maintenance dashboard
+* Asset health monitoring
 
 ---
 
-## Day 7 — Industrial Safety Dashboard
+## Features
 
-* Combined sensor dashboard
-* Gas + temperature + distance monitoring
-* Multi-alert safety system
-* Industrial UART monitoring console
-
----
-
-## Day 8 — UART Industrial Monitoring Dashboard
-
-* Advanced UART industrial display
-* Real-time sensor reporting
-* Modular monitoring architecture
-* Integrated industrial alert system
+* Real-time Industrial Monitoring
+* UART Serial Dashboards
+* Sensor-Based Safety Alerts
+* Event Logging System
+* Shift-Based Monitoring
+* Maintenance Scheduling
+* Modular Embedded Design
+* PICSimLab Simulation Support
 
 ---
 
-# Features
+## Project Structure
 
-* Real-time industrial monitoring
-* Sensor-based alert system
-* UART serial dashboard
-* Embedded safety automation
-* Modular STM32 project structure
-* PICSimLab simulation support
-* Multi-sensor industrial monitoring
-
----
-
-# Project Structure
-
-```plaintext
 STM32-Based-Smart-Industrial-Safety-Monitoring-System/
-│
+
 ├── Day_01_Temperature_Monitoring/
+
 ├── Day_02_MQ2_Gas_Sensor_Monitoring/
+
 ├── Day_03_HCSR04_Distance_Monitoring/
+
 ├── Day_04_Buzzer_Alarm_System/
+
 ├── Day_05_Fire_Gas_Detection_System/
+
 ├── Day_06_Industrial_Intruder_Detection/
+
 ├── Day_07_Industrial_Safety_Dashboard/
-├── Day_08_UART_Industrial_Dashboard/
-│
-├── images/
-├── README.md
-```
+
+├── Day_08_LCD_Industrial_Display/
+
+├── Day_09_Event_Logger_System/
+
+├── Day_10_Industrial_Shift_Monitoring/
+
+├── Day_11_Preventive_Maintenance_Scheduler/
+
+├── Images/
+
+└── README.md
 
 ---
 
-# UART Output Example
+## Sample UART Output
 
-```plaintext
-===== INDUSTRIAL DASHBOARD =====
+===== MAINTENANCE DASHBOARD =====
 
-Gas Level : 65 %
-Temperature : 72 C
-Distance : 18 cm
+Machine Runtime : 32 hrs
 
-STATUS:
-[!] GAS LEAK DETECTED
-[!] HIGH TEMPERATURE
-[!] INTRUDER ALERT
-```
+Maintenance Limit : 30 hrs
+
+Status : MAINTENANCE REQUIRED
+
+================================
 
 ---
 
-# Simulation
+## Simulation Environment
 
-This project is fully simulated using PICSimLab with:
+Simulated using PICSimLab:
 
 * Virtual Terminal
 * Sensor Sliders
-* LED Simulation
-* Buzzer Simulation
+* LED Indicators
+* Buzzer Alerts
+* Industrial Dashboard Testing
 
 ---
 
-# Future Enhancements
+## Future Enhancements
 
-* FreeRTOS Integration
-* IoT Cloud Monitoring
-* ESP8266 WiFi Communication
-* MQTT Alerts
-* SD Card Data Logging
-* Industrial IoT Dashboard
-* Mobile App Monitoring
+### Day 12
+
+Production Counter System
+
+### Day 13
+
+Industrial Fault Analytics Dashboard
+
+### Day 14
+
+Final Smart Factory Monitoring System
 
 ---
 
-# Learning Outcomes
+## Learning Outcomes
 
 * STM32 Peripheral Programming
-* GPIO & ADC Interfacing
+* ADC Interfacing
 * UART Communication
-* Embedded C Development
+* GPIO Control
 * Industrial Automation Concepts
+* Event Logging
+* Maintenance Scheduling
+* Embedded C Development
 * Real-Time Monitoring Systems
-* Sensor Integration
-* Industrial Alert Architecture
 
 ---
 
-# Author
+## Author
 
-**Abhiney Kumar**
+Abhiney Kumar
 
 Embedded Systems | STM32 | IoT | Industrial Automation
