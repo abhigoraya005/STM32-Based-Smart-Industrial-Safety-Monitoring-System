@@ -1,0 +1,11 @@
+../Core/Src/main.c:89:5:main	8	static
+../Core/Src/main.c:148:6:SystemClock_Config	88	static
+../Core/Src/main.c:192:13:MX_ADC1_Init	24	static
+../Core/Src/main.c:239:13:MX_I2C1_Init	8	static
+../Core/Src/main.c:273:13:MX_USART1_UART_Init	8	static
+../Core/Src/main.c:306:13:MX_GPIO_Init	32	static
+../Core/Src/main.c:336:10:Read_ADC	32	static
+../Core/Src/main.c:354:6:Check_Alerts	16	static
+../Core/Src/main.c:408:6:Update_Shift	4	static
+../Core/Src/main.c:424:6:Send_Report	56	static
+../Core/Src/main.c:469:6:Error_Handler	4	static,ignoring_inline_asm
