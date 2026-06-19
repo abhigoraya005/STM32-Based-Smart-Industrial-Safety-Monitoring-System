@@ -1,8 +1,8 @@
 # STM32-Based Smart Industrial Safety & Monitoring System
 
-An advanced Embedded Systems project using **STM32F103C8T6 (Blue Pill)** focused on industrial safety, monitoring, fault logging, maintenance scheduling, and automation concepts.
+An advanced Embedded Systems project using **STM32F103C8T6 (Blue Pill)** focused on industrial safety, monitoring, analytics, maintenance scheduling, and automation concepts.
 
-The project is completely developed using **STM32CubeIDE**, **Embedded C**, and **PICSimLab Simulation**.
+The project is developed using **STM32CubeIDE**, **Embedded C**, and **PICSimLab Simulation**.
 
 ---
 
@@ -31,83 +31,100 @@ The project is completely developed using **STM32CubeIDE**, **Embedded C**, and 
 ### Day 01 — Temperature Monitoring System
 
 * ADC-based temperature monitoring
-* UART data transmission
+* UART serial communication
 * Temperature alert indication
 
 ### Day 02 — MQ2 Gas Sensor Monitoring
 
 * Gas leakage detection
-* UART monitoring dashboard
-* Safety alert logic
+* Real-time monitoring
+* Safety alert system
 
 ### Day 03 — Distance Monitoring System
 
 * HC-SR04 obstacle detection
 * Distance measurement
-* Real-time monitoring
+* Warning indication
 
 ### Day 04 — Industrial Alarm System
 
 * LED warning system
 * Buzzer activation
-* Safety alarm simulation
+* Industrial alarm simulation
 
 ### Day 05 — Fire & Gas Detection System
 
 * Combined gas and temperature monitoring
-* Fire risk indication
+* Fire risk detection
 * Emergency alert generation
 
 ### Day 06 — Industrial Intruder Detection
 
-* Distance-based intruder detection
-* Security alert system
-* UART event notification
+* Distance-based intrusion monitoring
+* Security alert generation
+* UART notifications
 
 ### Day 07 — Industrial Safety Dashboard
 
-* Combined sensor monitoring
-* Multi-alert dashboard
-* Industrial status reporting
+* Multi-sensor monitoring
+* Combined industrial dashboard
+* Real-time status reporting
 
 ### Day 08 — LCD Industrial Display
 
-* LCD integration attempt
-* Display driver testing
-* Dashboard visualization experiments
+* LCD display integration attempt
+* Dashboard visualization testing
+* Display driver experiments
 
 ### Day 09 — Event Logger System
 
-* Fault counting
-* Event logging
-* Industrial reporting dashboard
+* Event counting
+* Fault logging
+* UART reporting system
 
 ### Day 10 — Industrial Shift Monitoring
 
 * Shift A / B / C monitoring
 * Fault tracking per shift
-* Automatic shift management
-* UART shift dashboard
+* Shift analytics dashboard
 
 ### Day 11 — Preventive Maintenance Scheduler
 
-* Machine runtime monitoring
+* Runtime monitoring
 * Maintenance due detection
-* Maintenance alert generation
-* Preventive maintenance dashboard
+* Preventive maintenance alerts
 * Asset health monitoring
+
+### Day 12 — Production Counter & Efficiency Monitoring
+
+* Product counting system
+* Good product detection
+* Rejected product detection
+* Production efficiency calculation
+* UART production dashboard
+
+### Day 13 — Industrial Fault Analytics Dashboard
+
+* Gas fault analytics
+* Temperature fault analytics
+* Distance fault analytics
+* Major fault identification
+* Factory fault monitoring dashboard
+* Critical alarm system
 
 ---
 
 ## Features
 
-* Real-time Industrial Monitoring
-* UART Serial Dashboards
+* Real-Time Industrial Monitoring
 * Sensor-Based Safety Alerts
+* UART Dashboards
 * Event Logging System
-* Shift-Based Monitoring
+* Shift Monitoring
 * Maintenance Scheduling
-* Modular Embedded Design
+* Production Monitoring
+* Fault Analytics
+* Modular STM32 Architecture
 * PICSimLab Simulation Support
 
 ---
@@ -138,23 +155,13 @@ STM32-Based-Smart-Industrial-Safety-Monitoring-System/
 
 ├── Day_11_Preventive_Maintenance_Scheduler/
 
+├── Day_12_Production_Counter_System/
+
+├── Day_13_Industrial_Fault_Analytics/
+
 ├── Images/
 
 └── README.md
-
----
-
-## Sample UART Output
-
-===== MAINTENANCE DASHBOARD =====
-
-Machine Runtime : 32 hrs
-
-Maintenance Limit : 30 hrs
-
-Status : MAINTENANCE REQUIRED
-
-================================
 
 ---
 
@@ -164,25 +171,22 @@ Simulated using PICSimLab:
 
 * Virtual Terminal
 * Sensor Sliders
-* LED Indicators
+* LEDs
 * Buzzer Alerts
-* Industrial Dashboard Testing
+* UART Dashboards
 
 ---
 
-## Future Enhancements
-
-### Day 12
-
-Production Counter System
-
-### Day 13
-
-Industrial Fault Analytics Dashboard
+## Future Enhancement
 
 ### Day 14
 
-Final Smart Factory Monitoring System
+Smart Factory Health Monitoring System
+
+* Factory health score calculation
+* Health classification
+* Critical condition detection
+* Smart factory dashboard
 
 ---
 
@@ -192,9 +196,10 @@ Final Smart Factory Monitoring System
 * ADC Interfacing
 * UART Communication
 * GPIO Control
-* Industrial Automation Concepts
-* Event Logging
-* Maintenance Scheduling
+* Industrial Monitoring
+* Fault Analytics
+* Production Monitoring
+* Preventive Maintenance Concepts
 * Embedded C Development
 * Real-Time Monitoring Systems
 
