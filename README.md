@@ -1,3 +1,4 @@
+🚀 14-Day STM32 Industrial Monitoring & Automation Project Successfully Completed
 # STM32-Based Smart Industrial Safety & Monitoring System
 
 An advanced Embedded Systems project using **STM32F103C8T6 (Blue Pill)** focused on industrial safety, monitoring, analytics, maintenance scheduling, and automation concepts.
@@ -112,6 +113,15 @@ The project is developed using **STM32CubeIDE**, **Embedded C**, and **PICSimLab
 * Factory fault monitoring dashboard
 * Critical alarm system
 
+### Day 14 — Smart Factory Health Monitoring System
+
+* Factory health score calculation
+* Health classification (Healthy / Warning / Critical)
+* Real-time sensor health analysis
+* Critical condition detection
+* UART health dashboard
+* Industrial monitoring integration
+
 ---
 
 ## Features
@@ -124,6 +134,8 @@ The project is developed using **STM32CubeIDE**, **Embedded C**, and **PICSimLab
 * Maintenance Scheduling
 * Production Monitoring
 * Fault Analytics
+* Factory Health Monitoring
+* Critical Alarm Detection
 * Modular STM32 Architecture
 * PICSimLab Simulation Support
 
@@ -159,34 +171,45 @@ STM32-Based-Smart-Industrial-Safety-Monitoring-System/
 
 ├── Day_13_Industrial_Fault_Analytics/
 
+├── Day_14_Smart_Factory_Health_Monitoring/
+
 ├── Images/
 
 └── README.md
 
 ---
 
-## Simulation Environment
+## Project Status
 
-Simulated using PICSimLab:
+✅ Day 01 Completed
 
-* Virtual Terminal
-* Sensor Sliders
-* LEDs
-* Buzzer Alerts
-* UART Dashboards
+✅ Day 02 Completed
 
----
+✅ Day 03 Completed
 
-## Future Enhancement
+✅ Day 04 Completed
 
-### Day 14
+✅ Day 05 Completed
 
-Smart Factory Health Monitoring System
+✅ Day 06 Completed
 
-* Factory health score calculation
-* Health classification
-* Critical condition detection
-* Smart factory dashboard
+✅ Day 07 Completed
+
+✅ Day 08 Completed
+
+✅ Day 09 Completed
+
+✅ Day 10 Completed
+
+✅ Day 11 Completed
+
+✅ Day 12 Completed
+
+✅ Day 13 Completed
+
+✅ Day 14 Completed
+
+🎉 STM32 Industrial Monitoring & Automation Project Successfully Completed
 
 ---
 
@@ -200,6 +223,7 @@ Smart Factory Health Monitoring System
 * Fault Analytics
 * Production Monitoring
 * Preventive Maintenance Concepts
+* Factory Health Monitoring
 * Embedded C Development
 * Real-Time Monitoring Systems
 
@@ -208,5 +232,7 @@ Smart Factory Health Monitoring System
 ## Author
 
 Abhiney Kumar
+
+ECE Undergraduate | NIT Jalandhar
 
 Embedded Systems | STM32 | IoT | Industrial Automation
